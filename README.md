@@ -10,4 +10,4 @@ establishes as run the client.py file on your desired device. Yes, you can run p
 connection is established the server can send messages to client and the client can send messsage to server and clients and send messages to each other as well.
 ## Vision for this project
 Right now only the transfer of messages is implemented. Messages are basically strings and as we know that everything is object in python. So if we can send strings as a byte 
-stream we can also send pdfs, images as well as a byte of stream.
+stream, we can also send pdfs, images as well. Basically any object can be sent via sockets by dumping that object using pickle for example.
